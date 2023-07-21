@@ -414,7 +414,7 @@ class Builder(ctk.CTk):
 		super().__init__()
 
 		ctk.set_appearance_mode("dark")
-		self.title("Blank Grabber [Builder]")
+		self.title("BAND GRABBER [Builder]")
 		self.iconbitmap(os.path.join("Extras", "icon.ico"))
 		self.geometry("1250x600")
 		self.resizable(False, False)
@@ -425,7 +425,7 @@ class Builder(ctk.CTk):
 		self.columnconfigure(0, weight= 1)
 		self.columnconfigure(1, weight= 0)
 
-		self.titleLabel = ctk.CTkLabel(self, text= "Blank Grabber", font= ctk.CTkFont(size= 68, weight= "bold"), text_color= "#2F58CD")
+		self.titleLabel = ctk.CTkLabel(self, text= "BAND GRABBER", font= ctk.CTkFont(size= 68, weight= "bold"), text_color= "#2F58CD")
 		self.titleLabel.grid(row= 0, column= 0)
 
 		self.builderOptions = BuilderOptionsFrame(self)
